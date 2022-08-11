@@ -1,7 +1,9 @@
 sPoint = int(input("Enter Starting Point: "))
 
 def isPrime(num):
-        for i in range(2,num-1):
+        if(num%2==0):
+                return(False)
+        for i in range(3,num//2,2):
                 if(num%i==0):
                         return(False)
         return(True)
