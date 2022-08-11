@@ -1,4 +1,5 @@
 import sys
+import math
 
 def isPrime(num):
         if(num%2==0):
